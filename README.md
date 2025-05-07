@@ -9,12 +9,19 @@ Growing up in Kenya, I’ve seen the challenges of language barriers and limited
 ## Portfolio Features ✨
 
 Responsive Design: Looks great on mobile, tablet, and desktop. 📱💻
+
 Modern UI: Built with Tailwind CSS, featuring animated gradients and smooth scrolling. 🎨
+
 Dark Mode: Toggle between light and dark themes, saved via localStorage. 🌙☀️
+
 Custom Fonts: Bold Poppins for headers, clean Roboto for body text. 🖋️
+
 Projects: Highlights my AI-powered Sheng-Dholuo Translator and Biometric Check-In/Out App. 🔍
+
 Skills: Showcases experience with BoldSign SDK, APIs (M-Pesa, PayPal), and more. 🛠️
+
 CV Download: Access my CV directly as a PDF. 📄
+
 Live Demo: Check it out at kevinjr20.github.io/portfolio! 🌐
 
 ## Projects 🚀
@@ -33,9 +40,12 @@ Want to collaborate on AI or community-driven projects? Fork this repo, make cha
 I’m excited to connect on AI projects or opportunities:
 
 Email: kevojr69@gmail.com ✉️
-GitHub: KevinJr20 🐙
-LinkedIn: Kevin Omondi Jr. 💼
-X: K3V0JR1 🐦
+
+GitHub: [KevinJr20](https://github.com/KevinJr20) 🐙
+
+LinkedIn: [Kevin Omondi Jr.](https://www.linkedin.com/in/kevin-omondi-jr-a04529362?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app) 💼
+
+X: [K3V0JR1](https://x.com/kevojr_?t=GrdKQRoup0qT0ErI9f0u4Q&s=09) 🐦
 
 Thanks for visiting my portfolio! Let’s make tech inclusive and impactful. 😎
 
