@@ -16,19 +16,21 @@ Dark Mode: Toggle between light and dark themes, saved via localStorage. 🌙☀
 
 Custom Fonts: Bold Poppins for headers, clean Roboto for body text. 🖋️
 
-Projects: Highlights my AI-powered Sheng-Dholuo Translator and Biometric Check-In/Out App. 🔍
+Projects: Highlights my AI-powered Sheng-Dholuo Translator, Victoria Marketplace e-Commerce Platform, and Biometric Check-In/Out App. 🔍
 
-Skills: Showcases experience with BoldSign SDK, APIs (M-Pesa, PayPal), and more. 🛠️
+Skills: Showcases experience with BoldSign SDK, APIs (BoldSign, Spotify, M-Pesa, PayPal), and more. 🛠️
 
 CV Download: Access my CV directly as a PDF. 📄
 
-Live Demo: Check it out at kevinjr20.github.io/portfolio! 🌐
+Live Demo: Check it out at [My Portfolio](https://kevinjr20.github.io/k3v0jr1-portfolio/)! 🌐
 
 ## Projects 🚀
 
 Sheng-Dholuo Translator (GitHub): An AI-powered Python tool for translating between Sheng and Dholuo, with a modern UI and PyPI publication. 🗣️
 
-Biometric Check-In/Out App (GitHub): A Django app with M-Pesa integration, dark mode, and payment gateways. 🕒
+Biometric Check-In/Out App (GitHub): A Django app with M-Pesa integration, employee management, and payment gateways. 🕒
+
+Victoria Marketplace (GitHub): A Django e-commerce platform with M-Pesa integration, product category, seller and buyer dashboards, and payment gateways. 🛒
 
 
 ## Contributing 🤝
@@ -45,7 +47,7 @@ GitHub: [KevinJr20](https://github.com/KevinJr20) 🐙
 
 LinkedIn: [Kevin Omondi Jr.](https://www.linkedin.com/in/kevin-omondi-jr-a04529362?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app) 💼
 
-X: [K3V0JR1](https://x.com/kevojr_?t=GrdKQRoup0qT0ErI9f0u4Q&s=09) 🐦
+X: [K3V0JR1](https://x.com/K3V0JR1?s=09) 🐦
 
 Thanks for visiting my portfolio! Let’s make tech inclusive and impactful. 😎
 
