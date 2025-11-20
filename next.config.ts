@@ -2,7 +2,9 @@
 const nextConfig = {
   output: 'export',
   trailingSlash: true,
-  images: { unoptimized: true }
+  images: { unoptimized: true },
+  basePath: '/k3v0jr1-portfolio',
+  assetPrefix: '/k3v0jr1-portfolio/',
 };
 
 export default nextConfig;
