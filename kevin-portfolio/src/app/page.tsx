@@ -6,8 +6,7 @@ export default function Home() {
   const [isLightMode, setIsLightMode] = useState(false);
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
-  // Correct path for GitHub Pages vs localhost
-  const basePath = process.env.NODE_ENV === 'production' ? '/k3v0jr1-portfolio' : '';
+  const basePath = process.env.NODE_ENV === 'production' ? '/k3v0jr1-portfolio/k3v0jr1-portfolio' : '';
 
 
   useEffect(() => {
