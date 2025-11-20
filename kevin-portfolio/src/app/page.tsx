@@ -9,10 +9,6 @@ export default function Home() {
   // Correct path for GitHub Pages vs localhost
   const basePath = process.env.NODE_ENV === 'production' ? '/k3v0jr1-portfolio' : '';
 
-  useEffect(() => {
-    const yearEl = document.getElementById('year');
-    if (yearEl) yearEl.textContent = new Date().getFullYear().toString();
-  }, []);
 
   useEffect(() => {
     // Apply light-mode class to body (exactly like original)
@@ -72,7 +68,7 @@ export default function Home() {
           <h2>About Me</h2>
           <p style={{ maxWidth: '800px', margin: '20px auto', fontSize: '1.1em' }}>
             I’m a self-taught AI developer from Kisumu, Kenya, passionate about using technology to solve real-world challenges in underserved communities.
-            My projects like <strong>SasaMum (MamaCare)</strong> and the <strong>Sheng-Dholuo Translator</strong> focus on maternal health and African language preservation.
+            My projects like <strong>SasaMum (Mobile App)</strong> and the <strong>Sheng-Dholuo Translator</strong> focus on maternal health and African language preservation. On the other hand, I have built robust systems like a <strong>Biometric Check-In/Out System</strong> and a <strong>Victoria Marketplace E-commerce Platform</strong> that I envision to ease the operations of local businesses - they have a local-first emphasis and integrate local payment solutions such as M-Pesa.
             Skilled in Python, React Native, Flask, Django, and AI/ML, I’m always open to collaborations and scaling impactful ideas.
           </p>
         </section>
@@ -93,7 +89,7 @@ export default function Home() {
           <h2>Featured Projects</h2>
           <div className="project-grid">
             {[
-              { img: 'SasaMum.png', title: 'SasaMum App', desc: 'Pregnancy tracker + AI risk prediction for African mothers', link: 'https://github.com/KevinJr20/sasamum-app' },
+              { img: 'SasaMum.png', title: 'SasaMum App', desc: 'Pregnancy tracker + AI risk prediction for Kenyan moms', link: 'https://github.com/KevinJr20/sasamum-app' },
               { img: 'logo.png', title: 'Biometric Check-In/Out', desc: 'Flask attendance system with M-Pesa integration', link: 'https://github.com/KevinJr20/K3V0JR1-check-in-out/tree/python-checkin-out' },
               { img: 'victoriamktplc.png', title: 'Victoria Marketplace', desc: 'Django e-commerce with M-Pesa & multilingual support', link: 'https://github.com/KevinJr20/victoria-marketplace' },
               { img: 'SDLtrns.png', title: 'Sheng-Dholuo Translator', desc: 'AI-powered translation tool published on PyPI', link: 'https://github.com/KevinJr20/SDL-translator' },
@@ -111,7 +107,7 @@ export default function Home() {
 
         <section id="contact">
           <h2>Get in Touch</h2>
-          <p style={{ fontSize: '1.2em', margin: '20px 0' }}>Let's collaborate on the next big idea!</p>
+          <p style={{ fontSize: '1.2em', margin: '20px 0' }}>K3V0JR1 is always open to collaborate on the next big idea. Reach out: 👇🏽</p>
           <div className="contact-icons">
             <a href="mailto:kevojr69@gmail.com">
               <img src="https://cdn-icons-png.flaticon.com/512/7469/7469200.png" alt="Email" width={40} height={40} />
@@ -140,7 +136,7 @@ export default function Home() {
         </section>
 
         <footer>
-          &copy; <span id="year"></span> Kevin Omondi Jr. All rights reserved.
+          &copy; <span id="year">{new Date().getFullYear()}</span> Kevin Omondi Jr. All rights reserved.
         </footer>
       </main>
 
