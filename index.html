@@ -4,30 +4,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description"
-    content="Kevin Omondi Jr. – AI Developer from Kisumu, Kenya. Building inclusive tech: MamaCare App, Sheng-Dholuo Translator, and more.">
-  <meta name="keywords"
-    content="Kevin Omondi Jr, AI developer Kenya, portfolio, MamaCare App, Sheng-Dholuo Translator, inclusive AI">
-  <meta name="author" content="Kevin Omondi Jr.">
+  <meta name="description" content="Kevin Omondi Jr. – AI Developer from Kisumu, Kenya. Building inclusive tech.">
   <meta property="og:title" content="Kevin Omondi Jr. – AI Developer Portfolio">
-  <meta property="og:description"
-    content="Self-taught AI developer from Kisumu, Kenya creating solutions for underserved communities.">
+  <meta property="og:description" content="Self-taught AI developer from Kisumu, Kenya creating solutions for underserved communities.">
   <meta property="og:image" content="https://kevinjr20.github.io/k3v0jr1-portfolio/CROP_1619300132124.jpg">
   <meta property="og:url" content="https://kevinjr20.github.io/k3v0jr1-portfolio/">
-  <meta name="twitter:card" content="summary_large_image">
-  <link rel="canonical" href="https://kevinjr20.github.io/k3v0jr1-portfolio/">
   <link rel="icon" href="logo.png" type="image/x-icon">
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Montserrat:wght@400;700&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
   <title>Kevin Omondi Jr. – Developer</title>
 
   <style>
     :root {
       --bg-color: #000000;
       --text-color: #ffffff;
-      --section-bg: #1e1e1e;
-      --header-bg: #000000;
       --section-bg: #000000;
+      --header-bg: #000000;
       --nav-bg: rgba(0, 0, 0, 0.8);
       --link-color: #fff;
       --accent-color: #3b82f6;
@@ -40,12 +31,9 @@
       --header-bg: #f8f8f8;
       --nav-bg: rgba(248, 248, 248, 0.8);
       --link-color: #333;
-      --accent-color: #3b82f6;
     }
 
-    html {
-      scroll-behavior: smooth;
-    }
+    html { scroll-behavior: smooth; }
 
     body {
       margin: 0;
@@ -76,18 +64,9 @@
       color: var(--link-color);
     }
 
-    header a.logo:hover {
-      color: var(--accent-color);
-    }
+    header a.logo:hover { color: var(--accent-color); }
 
-    .menu-toggle {
-      display: none;
-      font-size: 1.5em;
-      background: none;
-      border: none;
-      color: var(--link-color);
-      cursor: pointer;
-    }
+    .menu-toggle { display: none; font-size: 1.5em; background: none; border: none; color: var(--link-color); cursor: pointer; }
 
     nav a {
       margin: 0 15px;
@@ -96,31 +75,24 @@
       font-weight: 700;
     }
 
-    nav a:hover {
-      color: var(--accent-color);
-    }
+    nav a:hover { color: var(--accent-color); }
 
-    .nav-menu {
-      display: flex;
-    }
+    .nav-menu { display: flex; }
 
     .dropdown {
       display: none;
       position: absolute;
-
-      top: 60px;
+      top: 100px;
       right: 20px;
       width: 200px;
       background-color: var(--nav-bg);
       padding: 10px;
       border-radius: 5px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
       flex-direction: column;
     }
 
-    .dropdown.active {
-      display: flex;
-    }
+    .dropdown.active { display: flex; }
 
     .dropdown a {
       margin: 10px 0;
@@ -130,9 +102,7 @@
       text-decoration: none;
     }
 
-    .dropdown a:hover {
-      color: var(--accent-color);
-    }
+    .dropdown a:hover { color: var(--accent-color); }
 
     .header-actions {
       display: flex;
@@ -140,7 +110,6 @@
       gap: 15px;
     }
 
-    /* Resume Button – Replaces "Get in Touch" */
     .resume-btn {
       background-color: var(--accent-color);
       border: none;
@@ -151,11 +120,10 @@
       font-weight: 700;
       text-decoration: none;
       font-size: 0.95em;
+      white-space: nowrap;
     }
 
-    .resume-btn:hover {
-      opacity: 0.9;
-    }
+    .resume-btn:hover { opacity: 0.9; }
 
     #theme-toggle {
       background: none;
@@ -165,7 +133,6 @@
       cursor: pointer;
     }
 
-    /* Hero */
     .hero {
       display: flex;
       flex-wrap: wrap;
@@ -182,7 +149,7 @@
       height: 380px;
       object-fit: cover;
       border-radius: 12px;
-      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.3);
     }
 
     .intro {
@@ -192,26 +159,13 @@
       max-width: 800px;
     }
 
-    /* About */
-    .bio {
-      padding: 60px 20px;
-      text-align: center;
-      background-color: var(--section-bg);
-    }
-
-    .bio h2 {
-      font-family: 'Playfair Display', serif;
-      font-size: 2.5em;
-    }
-
-    /* Skills Section */
-    .skills {
+    .bio, .skills, .projects, #contact, footer {
       padding: 60px 40px;
       text-align: center;
       background-color: var(--section-bg);
     }
 
-    .skills h2 {
+    h2 {
       font-family: 'Playfair Display', serif;
       font-size: 2.5em;
       margin-bottom: 40px;
@@ -230,28 +184,7 @@
       font-size: 1.1em;
     }
 
-    .skills-list strong {
-      color: var(--accent-color);
-    }
-
-    @media (max-width: 768px) {
-      .skills-list {
-        columns: 1;
-      }
-    }
-
-    /* Projects */
-    .projects {
-      padding: 60px 40px;
-      text-align: center;
-      background-color: var(--section-bg);
-    }
-
-    .projects h2 {
-      font-family: 'Playfair Display', serif;
-      font-size: 2.5em;
-      margin-bottom: 40px;
-    }
+    .skills-list strong { color: var(--accent-color); }
 
     .project-grid {
       display: flex;
@@ -268,28 +201,21 @@
       border-radius: 12px;
       position: relative;
       overflow: hidden;
-      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.3);
       transition: transform 0.3s;
     }
 
-    .project-card:hover {
-      transform: translateY(-10px);
-    }
+    .project-card:hover { transform: translateY(-10px); }
 
     .project-card::before {
       content: '';
       position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background: rgba(0, 0, 0, 0.6);
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0,0,0,0.6);
       z-index: 1;
     }
 
-    body.light-mode .project-card::before {
-      background: rgba(0, 0, 0, 0.45);
-    }
+    body.light-mode .project-card::before { background: rgba(0,0,0,0.45); }
 
     .project-info {
       position: absolute;
@@ -313,21 +239,7 @@
       text-decoration: none;
     }
 
-    .project-info a:hover {
-      text-decoration: underline;
-    }
-
-    /* Contact */
-    #contact {
-      padding: 80px 40px;
-      text-align: center;
-      background-color: var(--section-bg);
-    }
-
-    #contact h2 {
-      font-family: 'Playfair Display', serif;
-      font-size: 2.5em;
-    }
+    .project-info a:hover { text-decoration: underline; }
 
     .contact-icons {
       display: flex;
@@ -337,154 +249,32 @@
       margin-top: 30px;
     }
 
-    .contact-icons img {
+    .contact-icons img, .contact-icons svg {
       width: 40px;
       height: 40px;
       transition: transform 0.3s;
     }
 
-    .contact-icons img:hover {
-      transform: scale(1.2);
-    }
+    .contact-icons a:hover img, .contact-icons a:hover svg { transform: scale(1.2); }
 
     footer {
-      background-color: var(--section-bg);
-      text-align: center;
       padding: 25px;
       font-size: 0.9em;
     }
 
-    /* Responsive */
     @media (max-width: 768px) {
-      .menu-toggle {
-        display: block;
-      }
-
-      .nav-menu {
-        display: none;
-      }
-
-      .hero {
-        flex-direction: column;
-        padding-top: 100px;
-      }
-
-      .hero img {
-        width: 80%;
-        max-width: 300px;
-        height: auto;
-      }
-
-      .intro {
-        font-size: 1.6em;
-      }
-
-      .project-card {
-        width: 90%;
-        height: 380px;
-      }
-    }
-
-    @media (max-width: 480px) {
-      header a.logo {
-        font-size: 1.2em;
-      }
-
-      .hero img {
-        width: 90%;
-      }
-
-      .intro {
-        font-size: 1.4em;
-      }
+      .menu-toggle { display: block; }
+      .nav-menu, .resume-btn.desktop-only { display: none; }
+      .dropdown { top: 100px; }
+      .hero { flex-direction: column; padding-top: 120px; }
+      .hero img { width: 80%; max-width: 300px; height: auto; }
+      .intro { font-size: 1.6em; }
+      .project-card { width: 90%; height: 380px; }
+      .skills-list { columns: 1; }
     }
 
     @media (min-width: 769px) {
-      .nav-menu {
-        display: flex !important;
-      }
-
-      .menu-toggle,
-      .dropdown {
-        display: none !important;
-      }
-    }
-
-
-    .resume-btn {
-      background-color: var(--accent-color);
-      border: none;
-      padding: 8px 18px;
-      color: #fff;
-      border-radius: 5px;
-      cursor: pointer;
-      font-weight: 700;
-      text-decoration: none;
-      font-size: 0.95em;
-      white-space: nowrap;
-    }
-
-    .resume-btn:hover {
-      opacity: 0.9;
-    }
-
-    /* Hide resume button on mobile navbar */
-    @media (max-width: 768px) {
-      .resume-btn.desktop-only {
-        display: none !important;
-      }
-
-      .menu-toggle {
-        display: block;
-      }
-
-      .nav-menu {
-        display: none;
-      }
-
-      .hero {
-        flex-direction: column;
-        padding-top: 100px;
-      }
-
-      .hero img {
-        width: 80%;
-        max-width: 300px;
-        height: auto;
-      }
-
-      .intro {
-        font-size: 1.6em;
-      }
-
-      .project-card {
-        width: 90%;
-        height: 380px;
-      }
-    }
-
-    /* Show resume button inside dropdown on mobile */
-    .dropdown .resume-btn {
-      display: block;
-      margin: 15px 10px 5px;
-      text-align: center;
-    }
-
-    @media (min-width: 769px) {
-      .nav-menu {
-        display: flex !important;
-      }
-
-      .menu-toggle,
-      .dropdown {
-        display: none !important;
-      }
-
-      .dropdown .resume-btn {
-        display: none;
-      }
-
-      /* hide mobile version on desktop */
+      .menu-toggle, .dropdown { display: none !important; }
     }
   </style>
 </head>
@@ -505,48 +295,36 @@
 
     <div class="header-actions">
       <button class="menu-toggle">☰</button>
-
-      <!-- Visible only on desktop -->
       <a href="CV-Kevin.pdf" download class="resume-btn desktop-only">View My Resume</a>
-
       <button id="theme-toggle">🌙</button>
     </div>
 
-    <!-- Mobile dropdown -->
     <div class="dropdown">
       <a href="#home">Home</a>
       <a href="#about">About</a>
       <a href="#skills">Skills</a>
       <a href="#projects">Projects</a>
       <a href="#contact">Contact</a>
-      <!-- This one shows only on mobile -->
       <a href="CV-Kevin.pdf" download class="resume-btn">View My Resume</a>
     </div>
   </header>
 
-  <!-- Hero -->
   <section class="hero" id="home">
     <img src="CROP_1619300132124.jpg" alt="Kevin Omondi Jr. portrait" loading="lazy">
     <div class="intro">
-      <p>Hi, I'm Kevin Omondi Jr.<br>A Pro-AI Developer from Kisumu, Kenya.<br>Building inclusive technology for African
-        communities.</p>
+      <p>Hi, I'm Kevin Omondi Jr.<br>A Pro-AI Developer from Kisumu, Kenya.<br>Building inclusive technology for African communities.</p>
     </div>
   </section>
 
-  <!-- About -->
   <section class="bio" id="about">
     <h2>About Me</h2>
     <p style="max-width: 800px; margin: 20px auto; font-size: 1.1em;">
-      I’m a self-taught AI developer from Kisumu, Kenya, passionate about using technology to solve real-world
-      challenges in underserved communities.
-      My projects like <strong>SasaMum (MamaCare)</strong> and the <strong>Sheng-Dholuo Translator</strong> focus on
-      maternal health and African language preservation.
-      Skilled in Python, React Native, Flask, Django, and AI/ML, I’m always open to collaborations and scaling impactful
-      ideas.
+      I’m a self-taught AI developer from Kisumu, Kenya, passionate about using technology to solve real-world challenges in underserved communities. 
+      My projects like <strong>SasaMum (MamaCare)</strong> and the <strong>Sheng-Dholuo Translator</strong> focus on maternal health and African language preservation.
+      Skilled in Python, React Native, Flask, Django, and AI/ML, I’m always open to collaborations and scaling impactful ideas.
     </p>
   </section>
 
-  <!-- Skills -->
   <section class="skills" id="skills">
     <h2>Skills & Expertise</h2>
     <ul class="skills-list">
@@ -559,7 +337,6 @@
     </ul>
   </section>
 
-  <!-- Projects -->
   <section class="projects" id="projects">
     <h2>Featured Projects</h2>
     <div class="project-grid">
@@ -574,8 +351,7 @@
         <div class="project-info">
           <h3>Biometric Check-In/Out</h3>
           <p>Flask attendance system with M-Pesa integration</p>
-          <a href="https://github.com/KevinJr20/K3V0JR1-check-in-out/tree/python-checkin-out" target="_blank">View
-            Project →</a>
+          <a href="https://github.com/KevinJr20/K3V0JR1-check-in-out/tree/python-checkin-out" target="_blank">View Project →</a>
         </div>
       </div>
       <div class="project-card" style="background-image: url('victoriamktplc.png');">
@@ -595,22 +371,19 @@
     </div>
   </section>
 
-  <!-- Contact -->
   <section id="contact">
     <h2>Get in Touch</h2>
     <p style="font-size: 1.2em; margin: 20px 0;">Let's collaborate on the next big idea!</p>
     <div class="contact-icons">
-      <a href="mailto:kevojr69@gmail.com"><img src="https://cdn-icons-png.flaticon.com/512/7469/7469200.png"
-          alt="Email"></a>
-      <a href="https://github.com/KevinJr20" target="_blank"><img
-          src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub"
-          style="filter: invert(1);"></a>
-      <a href="https://www.linkedin.com/in/kevin-omondi-jr-a04529362" target="_blank"><img
-          src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn"></a>
-      <a href="https://wa.me/qr/27U6MJNSRVMYG1" target="_blank"><img src="https://img.icons8.com/color/512/whatsapp.png"
-          alt="WhatsApp"></a>
-      <a href="https://x.com/K3V0JR1" target="_blank"><img src="https://img.icons8.com/ios-filled/100/x.png"
-          alt="X/Twitter"></a>
+      <a href="mailto:kevojr69@gmail.com"><img src="https://cdn-icons-png.flaticon.com/512/7469/7469200.png" alt="Email"></a>
+      <a href="https://github.com/KevinJr20" target="_blank"><img src="GitHub-Mark.png" alt="GitHub" style="filter: invert(1);"></a>
+      <a href="https://www.linkedin.com/in/kevin-omondi-jr-a04529362" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn"></a>
+      <a href="https://wa.me/qr/27U6MJNSRVMYG1" target="_blank"><img src="https://img.icons8.com/color/512/whatsapp.png" alt="WhatsApp"></a>
+      <a href="https://x.com/K3V0JR1" target="_blank">
+        <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+        </svg>
+      </a>
     </div>
   </section>
 
@@ -619,7 +392,6 @@
   </footer>
 
   <script>
-    // Theme toggle
     const toggleButton = document.getElementById('theme-toggle');
     const body = document.body;
     toggleButton.addEventListener('click', () => {
@@ -627,15 +399,12 @@
       toggleButton.textContent = body.classList.contains('light-mode') ? '☀️' : '🌙';
     });
 
-    // Dynamic year
     document.getElementById('year').textContent = new Date().getFullYear();
 
-    // Mobile menu
     const menuToggle = document.querySelector('.menu-toggle');
     const dropdown = document.querySelector('.dropdown');
     menuToggle.addEventListener('click', () => dropdown.classList.toggle('active'));
 
-    // Close dropdown when clicking outside
     document.addEventListener('click', (e) => {
       if (!dropdown.contains(e.target) && e.target !== menuToggle) {
         dropdown.classList.remove('active');

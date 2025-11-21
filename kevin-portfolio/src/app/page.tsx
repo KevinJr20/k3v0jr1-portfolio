@@ -6,11 +6,7 @@ export default function Home() {
   const [isLightMode, setIsLightMode] = useState(false);
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
-  const basePath = process.env.NODE_ENV === 'production' ? '/k3v0jr1-portfolio' : '';
-
-
   useEffect(() => {
-    // Apply light-mode class to body (exactly like original)
     if (isLightMode) {
       document.body.classList.add('light-mode');
     } else {
@@ -35,7 +31,7 @@ export default function Home() {
 
         <div className="header-actions">
           <button className="menu-toggle" onClick={() => setIsDropdownOpen(v => !v)}>☰</button>
-          <a href={`${basePath}/CV-Kevin.pdf`} download className="resume-btn desktop-only">
+          <a href="/CV-Kevin.pdf" download className="resume-btn desktop-only">
             View My Resume
           </a>
           <button id="theme-toggle" onClick={() => setIsLightMode(v => !v)}>
@@ -49,7 +45,7 @@ export default function Home() {
           <a href="#skills">Skills</a>
           <a href="#projects">Projects</a>
           <a href="#contact">Contact</a>
-          <a href={`${basePath}/CV-Kevin.pdf`} download className="resume-btn">
+          <a href="/CV-Kevin.pdf" download className="resume-btn">
             View My Resume
           </a>
         </div>
@@ -57,7 +53,7 @@ export default function Home() {
 
       <main>
         <section className="hero" id="home">
-          <img src={`${basePath}/CROP_1619300132124.jpg`} alt="Kevin Omondi Jr." className="hero-img" />
+          <img src="/CROP_1619300132124.jpg" alt="Kevin Omondi Jr. portrait" className="hero-img" />
           <div className="intro">
             <p>Hi, I'm Kevin Omondi Jr.<br />A Pro-AI Developer from Kisumu, Kenya.<br />Building inclusive technology for African communities.</p>
           </div>
@@ -93,7 +89,7 @@ export default function Home() {
               { img: 'victoriamktplc.png', title: 'Victoria Marketplace', desc: 'Django e-commerce with M-Pesa & multilingual support', link: 'https://github.com/KevinJr20/victoria-marketplace' },
               { img: 'SDLtrns.png', title: 'Sheng-Dholuo Translator', desc: 'AI-powered translation tool published on PyPI', link: 'https://github.com/KevinJr20/SDL-translator' },
             ].map((p, i) => (
-              <div key={i} className="project-card" style={{ backgroundImage: `url(${basePath}/${p.img})` }}>
+              <div key={i} className="project-card" style={{ backgroundImage: `url(/${p.img})` }}>
                 <div className="project-info">
                   <h3>{p.title}</h3>
                   <p>{p.desc}</p>
@@ -112,7 +108,7 @@ export default function Home() {
               <img src="https://cdn-icons-png.flaticon.com/512/7469/7469200.png" alt="Email" width={40} height={40} />
             </a>
             <a href="https://github.com/KevinJr20" target="_blank" rel="noopener noreferrer">
-              <img src={`${basePath}/GitHub-Mark.png`} alt="GitHub" width={40} height={40} style={{ filter: isLightMode ? 'invert(1)' : 'none' }} />
+              <img src="/GitHub-Mark.png" alt="GitHub" width={40} height={40} style={{ filter: isLightMode ? 'invert(1)' : 'none' }} />
             </a>
             <a href="https://www.linkedin.com/in/kevin-omondi-jr-a04529362" target="_blank" rel="noopener noreferrer">
               <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" width={40} height={40} />
@@ -273,7 +269,7 @@ export default function Home() {
           gap: 30px;
         }
 
-        .hero img {
+        .hero-img {
           width: 280px;
           height: 380px;
           object-fit: cover;
@@ -327,7 +323,7 @@ export default function Home() {
           height: 400px;
           background-size: cover;
           background-position: center;
-          border-radius: 12px;
+          border-radius: (12px);
           position: relative;
           overflow: hidden;
           box-shadow: 0 8px 20px rgba(0,0,0,0.3);
@@ -391,7 +387,7 @@ export default function Home() {
           .nav-menu, .resume-btn.desktop-only { display: none; }
           .dropdown { top: 100px; }
           .hero { flex-direction: column; padding-top: 120px; }
-          .hero img { width: 80%; max-width: 300px; height: auto; }
+          .hero-img { width: 80%; max-width: 300px; height: auto; }
           .intro { font-size: 1.6em; }
           .project-card { width: 90%; height: 380px; }
           .skills-list { columns: 1; }
