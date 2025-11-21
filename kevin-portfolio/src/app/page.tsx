@@ -57,7 +57,7 @@ export default function Home() {
 
       <main>
         <section className="hero" id="home">
-          <img src={`${basePath}/CROP_1619300132124.jpg`} alt="Kevin Omondi Jr. portrait" loading="lazy" />
+          <img src={`${basePath}/CROP_1619300132124.jpg`} alt="Kevin Omondi Jr." className="hero-img" />
           <div className="intro">
             <p>Hi, I'm Kevin Omondi Jr.<br />A Pro-AI Developer from Kisumu, Kenya.<br />Building inclusive technology for African communities.</p>
           </div>
@@ -106,19 +106,13 @@ export default function Home() {
 
         <section id="contact">
           <h2>Get in Touch</h2>
-          <p style={{ fontSize: '1.2em', margin: '20px 0' }}>K3V0JR1 is always open to collaborate on the next big idea. Reach out: 👇🏽</p>
+          <p style={{ fontSize: '1.2em', margin: '20px 0' }}>K3V0JR1 is open to work on the next big idea. Reach out: 👇🏽</p>
           <div className="contact-icons">
             <a href="mailto:kevojr69@gmail.com">
               <img src="https://cdn-icons-png.flaticon.com/512/7469/7469200.png" alt="Email" width={40} height={40} />
             </a>
             <a href="https://github.com/KevinJr20" target="_blank" rel="noopener noreferrer">
-              <img
-                src={`${basePath}/GitHub-Mark.png`}
-                alt="GitHub"
-                width={40}
-                height={40}
-                style={{ filter: isLightMode ? 'invert(1)' : 'none' }}
-              />
+              <img src={`${basePath}/GitHub-Mark.png`} alt="GitHub" width={40} height={40} style={{ filter: isLightMode ? 'invert(1)' : 'none' }} />
             </a>
             <a href="https://www.linkedin.com/in/kevin-omondi-jr-a04529362" target="_blank" rel="noopener noreferrer">
               <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" width={40} height={40} />
